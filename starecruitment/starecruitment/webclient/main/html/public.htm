@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html manifest="webclient.appcache">
+
+<head>
+  <meta charset="utf-8">
+  <title>申腾Saas后台管理系统</title>
+  <script data-main="../core/public.js" src="../../js/require.js"></script>
+  <link type="text/css" href="../../js/layui/css/layui.css" rel="stylesheet" />
+  <style type="text/css">
+
+
+  </style>
+</head>
+
+<body class="layui-layout-body">
+  <div class="layui-layout layui-layout-admin">
+    <div class="layui-header" id="header">
+      <div class="layui-logo " style="font-size:25px;">申腾IOT</div>
+      <!-- 头部区域（可配合layui已有的水平导航） -->
+      <ul class="layui-nav layui-layout-left all-color">
+        <!--
+          <li class="title layui-nav-item layui-this" url="landingpage.htm" id="T0"><a href="#">房源信息</a></li>
+          <li class="title layui-nav-item"  url="landingpage.htm" id="T3"><a href="#">客户信息</a></li>
+      -->
+      </ul>
+
+      <ul class="layui-nav layui-layout-right">
+        <li class="layui-nav-item">
+          <a href="javascript:;" class="shezhi">
+          载入中
+          </a>
+          <dl class="layui-nav-child">
+            <dd><a href="#" id="ZL">基本资料</a></dd>
+            <dd><a href="#" id="setting">设置</a></dd>
+          </dl>
+        </li>
+        <li class="layui-nav-item" id="login"><a href="#">登出</a></li>
+      </ul>
+
+    </div>
+
+    <div class="layui-side layui-bg-black">
+      <div class="layui-side-scroll">
+        <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+        <ul class="layui-nav layui-nav-tree" lay-filter="test">
+          <li class="layui-nav-item"><a class="cebian" url="tenacy_list.htm" href="#">租户列表</a></li>
+          <li class="layui-nav-item"><a class="cebian" url="db_list.htm" href="#">数据库列表</a></li>
+          <li class="layui-nav-item"><a class="cebian" url="tenacy_log.htm" href="#">用户行为记录</a></li>
+          <li class="layui-nav-item"><a class="cebian" url="device_list.htm" href="#">设备列表</a></li>
+          <!-- <li class="layui-nav-item"><a class="cebian" url="App_applyManage.htm" href="#">APP申请管理</a></li> -->
+          <li class="layui-nav-item ">
+            <a class="" href="javascript:;">APP申请管理</a>
+            <dl class="layui-nav-child">
+              <dd><a href="#" class="cebian" url="App_applyManage.htm">APP申请列表</a></dd>
+              <dd><a href="#" class="cebian" url="App_applyHistory.htm">APP申请记录</a></dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="layui-body" style="width: 89.5%;height: 100%">
+      <!-- 内容主体区域 -->
+
+      <iframe id="iframe_Content" src='tenacy_list.htm' style="width:100%;height: 100%;" scrolling="yes">
+     </iframe>
+
+
+    </div>
+    <div class="layui-footer">
+      <!-- 底部固定区域 -->
+      上海申腾信息技术有限公司
+    </div>
+
+  </div>
+
+</body>
+
+</html>

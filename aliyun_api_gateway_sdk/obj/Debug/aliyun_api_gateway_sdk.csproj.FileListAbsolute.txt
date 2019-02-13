@@ -1,0 +1,11 @@
+D:\新建文件夹 (3)\jeens\project\stiot\starecruitment\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.csproj.CoreCompileInputs.cache
+D:\新建文件夹 (3)\jeens\project\stiot\starecruitment\aliyun_api_gateway_sdk\bin\Debug\aliyun_api_gateway_sdk.dll
+D:\新建文件夹 (3)\jeens\project\stiot\starecruitment\aliyun_api_gateway_sdk\bin\Debug\aliyun_api_gateway_sdk.pdb
+D:\新建文件夹 (3)\jeens\project\stiot\starecruitment\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.dll
+D:\新建文件夹 (3)\jeens\project\stiot\starecruitment\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.pdb
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk\bin\Debug\aliyun_api_gateway_sdk.dll
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk\bin\Debug\aliyun_api_gateway_sdk.pdb
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.csprojResolveAssemblyReference.cache
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.csproj.CoreCompileInputs.cache
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.dll
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.pdb

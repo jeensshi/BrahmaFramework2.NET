@@ -1,0 +1,52 @@
+﻿JResource jr2 = new JResource();
+            dynamic parameters2 = new JObject();
+            parameters2.keyword = "Excel";
+            parameters2.command = "getexcel";
+            parameters2.funcid = context.Request.Url.Segments[context.Request.Url.Segments.Length - 1].ToString();
+            jr2.SetResource(context, parameters2);
+            dynamic respond2 = jr2.Dothing();
+
+
+            HSSFWorkbook hssfworkbook = new HSSFWorkbook();
+
+            //create a entry of DocumentSummaryInformation
+            DocumentSummaryInformation dsi = PropertySetFactory.CreateDocumentSummaryInformation();
+            dsi.Company = "Jeens Create";
+            hssfworkbook.DocumentSummaryInformation = dsi;
+
+            //create a entry of SummaryInformation
+            SummaryInformation si = PropertySetFactory.CreateSummaryInformation();
+            si.Subject = "海上文化";
+            hssfworkbook.SummaryInformation = si;
+            ISheet sheet1 = hssfworkbook.CreateSheet("数据报告");
+            ICellStyle cellStyle2 = hssfworkbook.CreateCellStyle();
+            IDataFormat format = hssfworkbook.CreateDataFormat();
+            cellStyle2.DataFormat = format.GetFormat("¥#,##0");
+            int i = 0;
+            foreach (dynamic ds in respond2.DataSet)
+            {
+                int j = 0;
+                IRow row = sheet1.CreateRow(i);
+                if(i==0)
+                    foreach (dynamic cell in ds)
+                    {
+                        row.CreateCell(j).SetCellValue(cell.Name.ToString());
+                        j++;
+                    }
+                else
+                foreach (dynamic cell in ds)
+                {
+                    row.CreateCell(j).SetCellValue(cell.Value.ToString());
+                    j++;
+                }
+                i++;
+            }
+            //FileStream file = new FileStream(context.Server.MapPath("/calop/master.xls"), FileMode.OpenOrCreate);
+            MemoryStream ms = new MemoryStream();
+            hssfworkbook.Write(ms);
+            //file.Close();
+            HttpContext.Current.Response.AppendHeader("Content-Disposition", "attachment;filename=master.xls");
+            HttpContext.Current.Response.Charset = "UTF-8";
+            HttpContext.Current.Response.ContentEncoding = System.Text.Encoding.Default;
+            HttpContext.Current.Response.ContentType = "application/octet-stream";
+            context.Response.OutputStream.Write(ms.GetBuffer(), 0, (int)ms.Position);

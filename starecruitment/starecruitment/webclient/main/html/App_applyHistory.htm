@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>APP申请列表</title>
+	<link rel="stylesheet" type="text/css" href="../../js/jquery-easyui-1.5.3/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../../js/jquery-easyui-1.5.3/themes/icon.css">
+
+	<link type="text/css" href="../../js/layui/css/layui.css" rel="stylesheet" />
+	<script data-main="../core/App_applyHistory.js" src="../../js/require.js"></script>
+	<script type="text/html" id="barDemo">
+		<a class="layui-btn layui-btn-mini layui-btn-xs" lay-event="detail">详情</a>
+			  <!-- <a class="layui-btn layui-btn-mini layui-btn-xs" lay-event="edit">处理</a> -->
+		</script>
+
+</head>
+
+<body style="background-color:#e2e2e2;overflow:hidden;height:100%;width:100%;">
+	<div class="layui-fluid ">
+		<div id="alarmmain" class="layui-row  layui-col-space10">
+
+
+
+			<div class="layui-row layui-col-space15 view-scrool" style="margin-top: 10px;width: 100%;height: calc(100% - 70px);overflow: auto;">
+				<!--图标一-->
+				<!-- 申请历史列表 -->
+				<table class="layui-hide" id='App_apply_history' lay-filter="App_apply_history" style="width: 100%;"></table>
+
+
+				<!-- 分页器 -->
+				<div class="layui-row">
+					<div class="layui-col-md12">
+						<div style="margin-left:3rem;" id="page"></div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+<!-- 详情弹出框 -->
+<form id="App_apply_info" class="layui-form layui-row" style="display:none">
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">租户id：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="tenUid" name="tenUid"> </label>
+		</div>
+	</div>
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">app名称：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="appName" name="appName"> </label>
+		</div>
+	</div>
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">公司名称：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="gsName" name="gsName"> </label>
+		</div>
+	</div>
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">logo：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="logo" name="logo"> </label>
+		</div>
+	</div>
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">联系人：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="contacts" name="contacts"> </label>
+		</div>
+	</div>
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">电话：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="tel" name="tel"> </label>
+		</div>
+	</div>
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">申请时间：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="applytime" name="applytime"> </label>
+		</div>
+	</div>
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">处理时间：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="dealtime" name="dealtime"> </label>
+		</div>
+	</div>
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">完成时间：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="finishtime" name="finishtime"> </label>
+		</div>
+	</div>
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">状态：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="Fstatus" name="Fstatus"> </label>
+		</div>
+	</div>
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">居民端url：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="reurl" name="reurl"> </label>
+		</div>
+	</div>
+	<div class="layui-form-item" style="margin-left: 30px;">
+		<label class="layui-form-label">维修端url：</label>
+		<div class="layui-input-inline">
+			<label class="layui-form-label" id="seurl" name="seurl"> </label>
+		</div>
+	</div>
+
+</form>
+
+</html>

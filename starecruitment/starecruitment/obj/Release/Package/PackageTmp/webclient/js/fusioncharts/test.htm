@@ -1,0 +1,206 @@
+﻿<html>
+<head>
+<script type="text/javascript" src="js/fusioncharts.js"></script>
+<script type="text/javascript">
+FusionCharts.ready(function () {
+    // Create a new instance of FusionCharts for rendering inside an HTML
+    // `<div>` element with id `my-chart-container`.
+    var myChart1 = new FusionCharts({
+        type: 'mscolumn2d',
+        renderAt: 'chart-container1',
+		width: "120",
+        height: "580",
+        dataFormat: 'json',	
+        dataSource:{
+			"chart": {
+				"caption": "",
+				"xAxisname": "温度",
+				"yAxisName": "",
+				"numberPrefix": "",
+				"numberSuffix":"℃",
+				"plotFillAlpha": "100",
+				"paletteColors": "#0075c2,#1aaf5d",
+				"baseFontColor": "#333333",
+				"baseFont": "Helvetica Neue,Arial",
+				"captionFontSize": "14",
+				"subcaptionFontSize": "14",
+				"subcaptionFontBold": "0",
+				"showBorder": "0",
+				"bgColor": "#ffffff",
+				"showShadow": "0",
+				"canvasBgColor": "#ffffff",
+				"canvasBorderAlpha": "0",
+				"divlineAlpha": "100",
+				"divlineColor": "#999999",
+				"divlineThickness": "1",
+				"divLineIsDashed": "1",
+				"divLineDashLen": "1",
+				"divLineGapLen": "1",
+				"usePlotGradientColor": "0",
+				"showplotborder": "0",
+				"valueFontColor": "#ffffff",
+				"placeValuesInside": "1",
+				"showHoverEffect": "1",
+				"rotateValues": "1",
+				"showXAxisLine": "1",
+				"xAxisLineThickness": "1",
+				"xAxisLineColor": "#999999",
+				"showAlternateHGridColor": "0",
+				"legendBgAlpha": "0",
+				"legendBorderAlpha": "0",
+				"legendShadow": "0",
+				"legendItemFontSize": "10",
+				"legendItemFontColor": "#666666"
+			},
+			"categories": [
+				{
+					"category": [
+						{
+							"label": ""
+						}
+					]
+				}
+			],
+			"dataset": [{"seriesname": "",
+					"data": [
+						{
+							"value": "48",
+							"color":"#FF0000"
+						},
+						{
+							"value": "25"
+							,
+							"color":"#FF0000"
+						},
+						{
+							"value": "40"
+						},
+						{
+							"value": "33"
+						}
+					]}
+			],
+			"trendlines": [
+				{
+					"line": [
+					{
+                            "isTrendZone": "1",
+                            "startvalue": "30",
+                            "endValue": "45",
+                            "color": "#00CD00",
+                            "valueOnRight": "1",
+                            "alpha":"100",
+                            "tooltext": "正常范围",
+                            "displayvalue": " "
+                        }
+					]
+				}
+			]
+		}
+    });
+    // Render the chart.
+    myChart1.render();
+
+var myChart2 = new FusionCharts({
+        type: 'mscolumn2d',
+        renderAt: 'chart-container2',
+		width: "120",
+        height: "580",
+        dataFormat: 'json',	
+        dataSource:{
+			"chart": {
+				"caption": "",
+				"xAxisname": "湿度",
+				"yAxisName": "",
+				"numberPrefix": "",
+				"numberSuffix":"%",
+				"plotFillAlpha": "100",
+				"paletteColors": "#0075c2,#1aaf5d",
+				"baseFontColor": "#333333",
+				"baseFont": "Helvetica Neue,Arial",
+				"captionFontSize": "14",
+				"subcaptionFontSize": "14",
+				"subcaptionFontBold": "0",
+				"showBorder": "0",
+				"bgColor": "#ffffff",
+				"showShadow": "0",
+				"canvasBgColor": "#ffffff",
+				"canvasBorderAlpha": "0",
+				"divlineAlpha": "100",
+				"divlineColor": "#999999",
+				"divlineThickness": "1",
+				"divLineIsDashed": "1",
+				"divLineDashLen": "1",
+				"divLineGapLen": "1",
+				"usePlotGradientColor": "0",
+				"showplotborder": "0",
+				"valueFontColor": "#ffffff",
+				"placeValuesInside": "1",
+				"showHoverEffect": "1",
+				"rotateValues": "1",
+				"showXAxisLine": "1",
+				"xAxisLineThickness": "1",
+				"xAxisLineColor": "#999999",
+				"showAlternateHGridColor": "0",
+				"legendBgAlpha": "0",
+				"legendBorderAlpha": "0",
+				"legendShadow": "0",
+				"legendItemFontSize": "10",
+				"legendItemFontColor": "#666666"
+			},
+			"categories": [
+				{
+					"category": [
+						{
+							"label": ""
+						}
+					]
+				}
+			],
+			"dataset": [{"seriesname": "",
+					"data": [
+						{
+							"value": "60",
+							"color":""
+						},
+						{
+							"value": "25"
+							,
+							"color":"#FF0000"
+						},
+						{
+							"value": "40"
+						},
+						{
+							"value": "33"
+						}
+					]}
+			],
+			"trendlines": [
+				{
+					"line": [
+					{
+                            "isTrendZone": "1",
+                            "startvalue": "40",
+                            "endValue": "70",
+                            "color": "#00CD00",
+                            "valueOnRight": "1",
+                            "alpha":"100",
+                            "tooltext": "正常范围",
+                            "displayvalue": " "
+                        }
+					]
+				}
+			]
+		}
+    });
+    // Render the chart.
+    myChart2.render();
+});
+
+</script>
+<body>
+<div id="chart-container1" style="float:left;">FusionCharts will load here...</div>
+<div id="chart-container2" style="float:left;">FusionCharts will load here...</div>
+</body>
+</html>

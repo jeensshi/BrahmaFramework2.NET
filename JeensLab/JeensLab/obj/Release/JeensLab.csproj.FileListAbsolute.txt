@@ -1,0 +1,78 @@
+c:\users\jeens\documents\visual studio 2015\Projects\JeensLab\JeensLab\bin\Release\JeensLab.dll
+c:\users\jeens\documents\visual studio 2015\Projects\JeensLab\JeensLab\bin\Release\JeensLab.pdb
+c:\users\jeens\documents\visual studio 2015\Projects\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.dll
+c:\users\jeens\documents\visual studio 2015\Projects\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.pdb
+c:\users\jeens\documents\visual studio 2015\Projects\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.xml
+c:\users\jeens\documents\visual studio 2015\Projects\JeensLab\JeensLab\obj\Release\JeensLab.dll
+c:\users\jeens\documents\visual studio 2015\Projects\JeensLab\JeensLab\obj\Release\JeensLab.pdb
+F:\jeens\project\Projects1.1\JeensLab\JeensLab\bin\Release\JeensLab.dll
+F:\jeens\project\Projects1.1\JeensLab\JeensLab\bin\Release\JeensLab.pdb
+F:\jeens\project\Projects1.1\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.dll
+F:\jeens\project\Projects1.1\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.pdb
+F:\jeens\project\Projects1.1\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.xml
+F:\jeens\project\Projects1.1\JeensLab\JeensLab\obj\Release\JeensLab.csprojResolveAssemblyReference.cache
+F:\jeens\project\Projects1.1\JeensLab\JeensLab\obj\Release\JeensLab.dll
+F:\jeens\project\Projects1.1\JeensLab\JeensLab\obj\Release\JeensLab.pdb
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\JeensLab.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\JeensLab.pdb
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\NPOI.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\NPOI.OOXML.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\NPOI.OpenXml4Net.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\NPOI.OpenXmlFormats.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.pdb
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.xml
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\NPOI.xml
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\NPOI.OOXML.xml
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\bin\Release\NPOI.OpenXml4Net.xml
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\obj\Release\JeensLab.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment\JeensLab\JeensLab\obj\Release\JeensLab.pdb
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\JeensLab.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\JeensLab.pdb
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\NPOI.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\NPOI.OOXML.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\NPOI.OpenXml4Net.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\NPOI.OpenXmlFormats.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.pdb
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.xml
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\NPOI.xml
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\NPOI.OOXML.xml
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\bin\Release\NPOI.OpenXml4Net.xml
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\obj\Release\JeensLab.csprojResolveAssemblyReference.cache
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\obj\Release\JeensLab.csproj.CoreCompileInputs.cache
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\obj\Release\JeensLab.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab\JeensLab\obj\Release\JeensLab.pdb
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\JeensLab.dll
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\JeensLab.pdb
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.dll
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\NPOI.dll
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\NPOI.OOXML.dll
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\NPOI.OpenXml4Net.dll
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\NPOI.OpenXmlFormats.dll
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.xml
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\NPOI.xml
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\NPOI.OOXML.xml
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\bin\Release\NPOI.OpenXml4Net.xml
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\obj\Release\JeensLab.csproj.CoreCompileInputs.cache
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\obj\Release\JeensLab.dll
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\obj\Release\JeensLab.pdb
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab\JeensLab\obj\Release\JeensLab.csprojResolveAssemblyReference.cache
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\JeensLab.dll
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\JeensLab.pdb
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.dll
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\NPOI.dll
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\NPOI.OOXML.dll
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\NPOI.OpenXml4Net.dll
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\NPOI.OpenXmlFormats.dll
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.xml
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\obj\Release\JeensLab.csproj.CoreCompileInputs.cache
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\obj\Release\JeensLab.dll
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\obj\Release\JeensLab.pdb
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.pdb
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\ICSharpCode.SharpZipLib.xml
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\obj\Release\JeensLab.csprojResolveAssemblyReference.cache

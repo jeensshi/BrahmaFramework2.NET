@@ -1,0 +1,8 @@
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\bin\Release\aliyun_api_gateway_sdk_ext.dll
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\bin\Release\aliyun_api_gateway_sdk_ext.pdb
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\bin\Release\aliyun_api_gateway_sdk.dll
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\bin\Release\aliyun_api_gateway_sdk.pdb
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\obj\Release\aliyun_api_gateway_sdk_ext.csprojResolveAssemblyReference.cache
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\obj\Release\aliyun_api_gateway_sdk_ext.csproj.CoreCompileInputs.cache
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\obj\Release\aliyun_api_gateway_sdk_ext.dll
+D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\obj\Release\aliyun_api_gateway_sdk_ext.pdb

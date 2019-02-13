@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <sql-mappings>
+    <!-- Example -->
+    <sql-mapping command="authen" method="Authen" table="PageAuth"/>
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="getdata" method="GetData" table="Account" sql="select * from Account where accountid='{$acid}' and password='{$password}'"/>
+    <sql-mapping fncode="*" command="getdata" method="GetData" table="UserType" sql="select * from UserType"/>
+    <sql-mapping command="insertdata" method="DeleteData" table="CallRepair" sql="insertCR '{$ptid}','{$desc}','{$address}','{$booktime}','{$tel}','{$caller}','{$accountid}','{$booktqid}'{#crsourceid#1##,'{$crsourceid}'} "/>
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="deletedata" method="DeleteData" table="CallRepair" sql="delCR {$crid},{$accountid} "/>
+<!-- ———————————Author@csz -->
+    <!-- 获取设备信息 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="getDeviceList" method="GetData" table="device" sql="exec [dbo].[ST_Pro_GetDeviceList] '{$page_size}','{$page_index}','{$status}','{$strID}'"/>
+
+    <!-- 更新数据库基本信息 -->
+    <!-- <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="updateDataBase1" method="UpdateData" table="DataBase1" sql="update ST_device set {$fileId}='{$value}' where ID='{$ID}'"/> -->
+      <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="updateDataBase1" method="UpdateData" table="DataBase1" sql="exec [dbo].[ST_Pro_UpdateData] '{$tenancyid}','{$appid}','{$fileId}','{$value}','{$ID}'"/>
+<!-- ———————————Author@jeens—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— -->
+    <!-- 登出 -->
+    <sql-mapping command="signout" method="SignOut" table="PageAuth"/>
+    <!-- 登录 -->
+    <sql-mapping command="signin" method="SignIn" table="PageAuth" sql="exec signin '{$accountid}','{$password}'" database="controlServer" cdbsql="select 'ST_sys' as CURRENT_DATABASE" cdbdatabase="controlServer"/>
+    <!-- 自动登录 -->
+    <sql-mapping command="autosignin" method="TokenSignIn" table="PageAuth" sql="exec autosignin '{$token}'"/>
+    <!-- 获取版本号 -->
+    <sql-mapping command="getversion" method="GetConfig" table="System" name="sysversion" config="VERSION"/>
+    <!-- 获取是否缓存 -->
+    <sql-mapping command="gethjcache" method="GetConfig" table="System" name="hjcache" config="HJCACHE"/>
+    <!-- 重载网站配置 -->
+    <sql-mapping command="reload" method="ReloadConfig" table="System"/>
+    <!-- 上传文件 -->
+    <sql-mapping fncode="*" command="upload" method="Upload" table="System"/>
+
+
+<!-- ———————————Author@week——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— -->
+    <!-- 根据用户名获取用户昵称 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="getUserName" method="GetData" table="Account_User" sql="select b.name from Account a inner join [User] b on a.userid=b.userid and a.accountid='{$accountid}'"/>
+    <!-- 获取所有租户信息，带筛选和分页功能 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="getTenacyList" method="GetData" table="Tenacy" sql="exec [dbo].[ST_Pro_GetTenacyList] '{$page}','{$page_no}','{$status}' "/>
+    <!-- 启用禁用租户 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="updateTenacyStatus" method="UpdateData" table="Tenacy" sql="update ST_tenancy set status='{$status}' where ID='{$ID}' "/>
+    <!-- 租户硬删除 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="deleteTenacy" method="DeleteData" table="Tenacy" sql="exec [dbo].[ST_Pro_DeleteInstance_True] '{$ID}' "/>
+    <!-- 给租户备注 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="updateTenacyMark" method="UpdateData" table="Tenacy" sql="update ST_tenancy set Mark='{$Mark}' where ID='{$ID}' "/>
+    <!-- 获取所有数据库信息，带筛选和分页功能 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="getDataBaseList" method="GetData" table="DataBase" sql="exec [dbo].[ST_Pro_GetDataBaseList] '{$page}','{$page_no}','{$status}' "/>
+    <!-- 更新数据库基本信息 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="updateDataBase" method="UpdateData" table="DataBase" sql="update ST_tenancy_dbinfo set {$fileId}='{$value}' where ID='{$ID}' "/>
+    <!-- 插入一条数据库信息 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="insertDataBase" method="InsertData" table="DataBase" sql="insert ST_tenancy_dbinfo(host) values('127.0.0.1') "/>
+    <!-- 删除数据库的配置信息 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="deleteDataBase" method="DeleteData" table="DataBase" sql="delete ST_tenancy_dbinfo where ID='{$ID}'  "/>
+    <!-- 获取用户行为记录 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="getTenacyLog" method="GetData" table="Tenacy_Log" sql="exec [dbo].[ST_Pro_GetTenacyLog] '{$page}','{$page_no}','{$status}','{$ID}','{$start_time}','{$end_time}' "/>
+    <!-- ———————————Author@wanghui——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— -->
+    <!-- 获取App申请列表 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="getAppApplyList" method="GetData" table="App_apply" sql="select *,case  when status=0 then '未处理' when status=1 then '处理中' else '已完成' end  Fstatus from ST_app_apply where status &lt; 2"/>
+    <!-- 获取App历史纪录列表 （不带分页）-->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="getAppApplyHistory" method="GetData" table="App_apply" sql="select *,case  when status=0 then '未处理' when status=1 then '处理中' else '已完成' end  Fstatus from ST_app_apply "/>
+    <!-- 获取App历史纪录列表（不带分页） -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="updateAppApplyList" method="GetData" table="App_apply_u" sql="exec [dbo].[ST_Pro_UpdateAppUrl] '{$saveurl}','{$appId}','{$type}','{$finishtime}','{$status}' "/>
+    <!-- 修改申请状态 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="updateAppApplyList_status" method="UpdateData" table="App_apply_u_status" sql="update ST_app_apply set status='{$status}',dealtime='{$dealtime}' where tenUid='{$ID}' "/>
+    <!-- 获取所有申请信息，带筛选和分页功能 -->
+    <sql-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" command="getApplyList" method="GetData" table="App_apply" sql="exec [dbo].[ST_Pro_GetAppApplyList] '{$page}','{$page_no}','{$status}' "/>
+
+
+  </sql-mappings>
+
+  <url-mappings>
+    <!-- Author@week -->
+    <!-- 登录页 -->
+    <url-mapping fncode="*" url="login.htm"/>
+    <!-- 重启配置 -->
+    <url-mapping fncode="*" url="restart.htm"/>
+    <!-- 上传文件 -->
+    <url-mapping fncode="*" url="uploader.htm"/>
+    <!-- 框架页 -->
+    <url-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" url="public.htm"/>
+    <!-- 设备信息页 -->
+    <url-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" url="device_list.htm"/>
+    <!-- 租户列表页 -->
+    <url-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" url="tenacy_list.htm"/>
+
+    <!-- 数据库列表 -->
+    <url-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" url="db_list.htm"/>
+    <!-- 行为记录 -->
+    <url-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" url="tenacy_log.htm"/>
+    <!-- Author@wanghui -->
+    <!-- APP申请列表 -->
+    <url-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" url="App_applyManage.htm"/>
+    <!-- APP申请历史 -->
+    <url-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" url="App_applyHistory.htm"/>
+    <!-- 下载文档 -->
+    <url-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" url="guide.htm"/>
+    <!-- end@wanghui -->
+    <!-- 测试 -->
+    <url-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" url="lll.htm"/>
+  </url-mappings>
+  <common>
+    <parameter name="JAssembly" value="starecruitment"/>
+    <parameter name="JAdpater" value="starecruitment.App_Code.JDAO"/>
+    <parameter name="prefix" value=""/>
+    <parameter name="suffix" value="SELECT @@IDENTITY AS 'Identity'"/>
+    <parameter name="NOSESSION" value="test.htm"/>
+    <parameter name="NOAUTH" value="noauth.htm"/>
+    <parameter name="ILLEGAL" value="login.htm"/>
+    <parameter name="LANDINGPAGE" value="public.htm"/>
+    <parameter name="DEBUG" value="true"/>
+    <parameter name="SHOWSQL" value="true"/>
+    <parameter name="FUNCAUTH" value="true"/>
+    <parameter name="PAGEAUTH" value="true"/>
+    <parameter name="WEBROOT" value="/webclient/main/html/"/>
+    <parameter name="DEFAULTDATABASE" value="controlServer"/>
+    <parameter name="CURRENTDATABASE" value="CURRENT_DATABASE"/>
+    <parameter name="DBPARA" value="false"/>
+    <parameter name="OPENAM" value="false"/>
+    <parameter name="VERSION" value="100001"/>
+    <parameter name="HJCACHE" value="true"/>
+    <parameter name="UPLOADURL" value="UploadFile/items/"/>
+  </common>
+  <framework>
+    <name>BrahmaFramework</name>
+    <version>1.32</version>
+  </framework>
+</config>

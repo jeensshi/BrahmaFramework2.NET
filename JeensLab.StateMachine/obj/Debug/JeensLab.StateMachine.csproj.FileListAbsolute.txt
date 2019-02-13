@@ -1,0 +1,18 @@
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab.StateMachine\bin\Debug\JeensLab.StateMachine.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab.StateMachine\bin\Debug\JeensLab.StateMachine.pdb
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.csproj.CoreCompileInputs.cache
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.dll
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.pdb
+D:\新建文件夹 (3)\jeens\project\starecruitment - 副本\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.csprojResolveAssemblyReference.cache
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab.StateMachine\bin\Debug\JeensLab.StateMachine.dll
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab.StateMachine\bin\Debug\JeensLab.StateMachine.pdb
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.csprojResolveAssemblyReference.cache
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.csproj.CoreCompileInputs.cache
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.dll
+D:\新建文件夹 (3)\jeens\project\zjdproject\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.pdb
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab.StateMachine\bin\Debug\JeensLab.StateMachine.dll
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab.StateMachine\bin\Debug\JeensLab.StateMachine.pdb
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.csproj.CoreCompileInputs.cache
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.dll
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.pdb
+D:\新建文件夹 (3)\jeens\project\stiot\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.csprojResolveAssemblyReference.cache
