@@ -16,6 +16,6 @@ add feature
 
 5.AOP injection point could be easily insert into each module.
 
-6.add errorcode definition list
+6.add statuscode definition list
 
 7.one command return multiple datasets.
