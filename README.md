@@ -12,4 +12,6 @@ add feature
 
 3.promote the variable define in mapping.config.xml
 
-4.sharing content like context, session could be easily used in dynamic module.
+4.sharing content like context, session could be easily used in every dynamic module.
+
+5.AOP injection point could be easily insert into each module.
