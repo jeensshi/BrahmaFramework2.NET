@@ -48,7 +48,7 @@ JToken datatype	(JSON object)
         'result':true,	//show you the result
        	'message':'',	//to mention
         'statuscode':'0x000001',	//let you know what happens
-        //'errorcode':'0x000001',	deleted
+        //'errorcode':'0x000001',	discarded
         'text':'',	//to show
         'sql':'',	//show you the sql code
         'connectionstring':'',	//show you the database connection string
