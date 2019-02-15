@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Cors;
 using Owin;
 
-[assembly: OwinStartup(typeof(starecruitment.Startup))]
+[assembly: OwinStartup(typeof(BrahmaFramework.Startup))]
 
-namespace starecruitment
+namespace BrahmaFramework
 {
     public class Startup
     {

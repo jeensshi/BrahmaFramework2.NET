@@ -6,13 +6,13 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Xml;
 using System.IO;
-using starecruitment.App_Code;
+using BrahmaFramework.App_Code;
 using System.Configuration;
 using System.Collections;
 using Microsoft.AspNet.SignalR;
 using System.Web.Routing;
 
-namespace starecruitment
+namespace BrahmaFramework
 {
     public class Global : System.Web.HttpApplication
     {

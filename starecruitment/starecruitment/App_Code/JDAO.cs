@@ -21,7 +21,7 @@ using System.Net.Security;
 using aliyun_api_gateway_sdk_ext.Sign;
 using System.Web.Configuration;
 //2017.3.2
-namespace starecruitment.App_Code
+namespace BrahmaFramework.App_Code
 {
     public class JDAO : JAdapter
     {

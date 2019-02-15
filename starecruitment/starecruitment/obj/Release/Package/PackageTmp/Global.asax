@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="starecruitment.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="BrahmaFramework.Global" Language="C#" %>

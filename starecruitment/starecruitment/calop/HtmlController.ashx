@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" CodeBehind="HtmlController.ashx.cs" Class="starecruitment.calop.HtmlController" %>
+﻿<%@ WebHandler Language="C#" CodeBehind="HtmlController.ashx.cs" Class="BrahmaFramework.calop.HtmlController" %>

@@ -98,8 +98,8 @@
     <url-mapping fncode="83AE7C4CE5AE4A6097EB1D64F6AE6019" url="lll.htm"/>
   </url-mappings>
   <common>
-    <parameter name="JAssembly" value="starecruitment"/>
-    <parameter name="JAdpater" value="starecruitment.App_Code.JDAO"/>
+    <parameter name="JAssembly" value="BrahmaFramework"/>
+    <parameter name="JAdpater" value="BrahmaFramework.App_Code.JDAO"/>
     <parameter name="prefix" value=""/>
     <parameter name="suffix" value="SELECT @@IDENTITY AS 'Identity'"/>
     <parameter name="NOSESSION" value="test.htm"/>
@@ -115,7 +115,7 @@
     <parameter name="CURRENTDATABASE" value="CURRENT_DATABASE"/>
     <parameter name="DBPARA" value="false"/>
     <parameter name="OPENAM" value="false"/>
-    <parameter name="VERSION" value="100001"/>
+    <parameter name="VERSION" value="100002"/>
     <parameter name="HJCACHE" value="true"/>
     <parameter name="UPLOADURL" value="UploadFile/items/"/>
   </common>

@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" CodeBehind="Uploader.ashx.cs" Class="starecruitment.calop.Uploader" %>
+﻿<%@ WebHandler Language="C#" CodeBehind="Uploader.ashx.cs" Class="BrahmaFramework.calop.Uploader" %>

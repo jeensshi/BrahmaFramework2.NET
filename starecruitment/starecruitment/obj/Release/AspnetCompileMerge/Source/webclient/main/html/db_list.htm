@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html manifest="webclient.appcache">
+<!-- Author@week -->
+
+<head>
+  <meta charset="utf-8">
+  <title>数据库列表</title>
+  <script data-main="../core/db_list.js" src="../../js/require.js"></script>
+  <link type="text/css" href="../../js/layui/css/layui.css" rel="stylesheet" />
+  <style type="text/css">
+    .tenacy_edit {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 租户状态下拉选择框 -->
+  <div class="layui-row">
+    <div class="layui-col-md12 gkl">
+      <form class="layui-form" style="width: 8rem">
+        <div style="margin-left:0.2rem;margin-top:0.5rem;">
+          <select  name="repairman" lay-verify="" id="status">
+              <option value="-1" selected>全部</option>
+              <option value="0" >待分配</option>
+              <option value="1" >已分配</option>
+              <option value="2" >待回收</option>
+            </select>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- 表头工具栏 -->
+  <script type="text/html" id="barTool">
+    <div class="layui-btn-group">
+    <a class="layui-btn layui-btn-sm " lay-event="add">增加</a>
+    <a class="layui-btn layui-btn-danger layui-btn-sm" lay-event="del">删除</a>
+  </div>
+  </script>
+  <!-- 租户列表 -->
+  <table class="layui-hide" id='db_list' lay-filter="d_list" style="width: 100%;">
+
+  </table>
+
+
+
+  <!-- 分页器 -->
+  <div class="layui-row">
+    <div class="layui-col-md12">
+      <div style="margin-left:3rem;" id="page"></div>
+    </div>
+  </div>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/calop/DealData.ashx" hash="64216e7f" filehash="25327d1850ef" flags="130000" assembly="BrahmaFramework" type="BrahmaFramework.calop.DealData">
+    <filedeps>
+        <filedep name="/calop/DealData.ashx" />
+    </filedeps>
+</preserve>

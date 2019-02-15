@@ -16,3 +16,8 @@ D:\新建文件夹 (3)\jeens\project\stiot\JeensLab.StateMachine\obj\Debug\Jeens
 D:\新建文件夹 (3)\jeens\project\stiot\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.dll
 D:\新建文件夹 (3)\jeens\project\stiot\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.pdb
 D:\新建文件夹 (3)\jeens\project\stiot\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.csprojResolveAssemblyReference.cache
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab.StateMachine\bin\Debug\JeensLab.StateMachine.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab.StateMachine\bin\Debug\JeensLab.StateMachine.pdb
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.csproj.CoreCompileInputs.cache
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab.StateMachine\obj\Debug\JeensLab.StateMachine.pdb

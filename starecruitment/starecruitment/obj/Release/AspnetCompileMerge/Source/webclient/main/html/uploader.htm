@@ -1,0 +1,34 @@
+﻿<!DOCTYPE HTML>
+<head>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+  <title>申腾Saas后台管理系统</title>
+  <link type="text/css" href="../../js/layui/css/font.css">
+  <link type="text/css" href="../../js/layui/css/xadmin.css">
+  <link type="text/css" href="../../js/layui/css/layui.css" rel="stylesheet" />
+  <script data-main="../core/uploader.js" src="../../js/require.js"></script>
+</head>
+
+<body>
+  <body class="login-bg">
+      <div class="login layui-anim layui-anim-up">
+          <div class="message">上传组件</div>
+          <div id="darkbannerwrap"></div>
+          <form class="layui-form">
+              <input name="username" id="username" placeholder="用户名" type="text" lay-verify="required" class="layui-input">
+              <hr class="hr15">
+              <input name="password" id="password" lay-verify="required" placeholder="密码" type="password" class="layui-input">
+              <hr class="hr15">
+
+          </form>
+          <button id="selectfile" style="width:100%;height:50px;" class="layui-btn"><font style="font-size:18px;">选择文件</font></button>
+          <button id="upload" style="width:100%;height:50px;" class="layui-btn"><font style="font-size:18px;">上传</font></button>
+
+          <input id="select" type="file" name="select" multiple="multiple" /><input id="test" type="button" value="upload" />
+          <hr class="hr20">
+      </div>
+  </body>
+
+</html>

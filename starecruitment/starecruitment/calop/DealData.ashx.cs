@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web;
-using starecruitment.App_Code;
+using BrahmaFramework.App_Code;
 using System.IO;
 using System.Collections;
 using System.Web.SessionState;
@@ -8,7 +8,7 @@ using Newtonsoft.Json.Linq;
 using System.Xml;
 using System.Reflection;
 using JeensLab;
-namespace starecruitment.calop
+namespace BrahmaFramework.calop
 {
     /// <summary>
     /// GetDataList 的摘要说明

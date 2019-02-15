@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Web;
 using Microsoft.AspNet.SignalR;
 
-namespace starecruitment
+namespace BrahmaFramework
 {
     public class DealDataHub : Hub
     {

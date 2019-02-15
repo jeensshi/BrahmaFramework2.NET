@@ -18,7 +18,7 @@ using NPOI.HPSF;
 using NPOI.POIFS.FileSystem;
 using NPOI.SS.UserModel;
 
-namespace starecruitment.calop
+namespace BrahmaFramework.calop
 {
     /// <summary>
     /// GetDataList 的摘要说明

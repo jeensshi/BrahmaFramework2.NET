@@ -117,3 +117,17 @@ D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\obj\Debug\JeensLab.
 D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\obj\Debug\JeensLab.csproj.CoreCompileInputs.cache
 D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\obj\Debug\JeensLab.dll
 D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\obj\Debug\JeensLab.pdb
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Debug\JeensLab.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Debug\JeensLab.pdb
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Debug\NPOI.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Debug\NPOI.OOXML.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\obj\Debug\JeensLab.csproj.CoreCompileInputs.cache
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\obj\Debug\JeensLab.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\obj\Debug\JeensLab.pdb

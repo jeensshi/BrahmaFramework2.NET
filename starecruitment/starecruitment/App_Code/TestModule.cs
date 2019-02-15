@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web;
-using starecruitment.App_Code;
+using BrahmaFramework.App_Code;
 using System.IO;
 using System.Collections;
 using System.Web.SessionState;
@@ -9,7 +9,7 @@ using System.Xml;
 using System.Reflection;
 using JeensLab;
 
-namespace starecruitment.App_Code
+namespace BrahmaFramework.App_Code
 {
     public class TestModule : IHttpModule, IRequiresSessionState
     {

@@ -76,3 +76,18 @@ D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\Newtons
 D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\ICSharpCode.SharpZipLib.dll
 D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\bin\Release\ICSharpCode.SharpZipLib.xml
 D:\新建文件夹 (3)\jeens\project\stiot\JeensLab\JeensLab\obj\Release\JeensLab.csprojResolveAssemblyReference.cache
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\JeensLab.dll.config
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\JeensLab.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\NPOI.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\NPOI.OOXML.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\NPOI.OpenXml4Net.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\NPOI.OpenXmlFormats.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\ICSharpCode.SharpZipLib.pdb
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\ICSharpCode.SharpZipLib.xml
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.pdb
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\bin\Release\Newtonsoft.Json.xml
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\obj\Release\JeensLab.csprojResolveAssemblyReference.cache
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\obj\Release\JeensLab.csproj.CoreCompileInputs.cache
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\JeensLab\JeensLab\obj\Release\JeensLab.dll

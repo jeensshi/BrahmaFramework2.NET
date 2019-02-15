@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/calop/Uploader.ashx" hash="64216e7f" filehash="fffffb5c323949e8" flags="130000" assembly="BrahmaFramework" type="BrahmaFramework.calop.Uploader">
+    <filedeps>
+        <filedep name="/calop/Uploader.ashx" />
+    </filedeps>
+</preserve>

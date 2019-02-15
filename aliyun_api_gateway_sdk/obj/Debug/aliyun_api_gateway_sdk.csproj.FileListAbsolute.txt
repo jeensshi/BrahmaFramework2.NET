@@ -9,3 +9,8 @@ D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk\obj\Debug\aliy
 D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.csproj.CoreCompileInputs.cache
 D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.dll
 D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.pdb
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\aliyun_api_gateway_sdk\bin\Debug\aliyun_api_gateway_sdk.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\aliyun_api_gateway_sdk\bin\Debug\aliyun_api_gateway_sdk.pdb
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.csproj.CoreCompileInputs.cache
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\aliyun_api_gateway_sdk\obj\Debug\aliyun_api_gateway_sdk.pdb

@@ -6,3 +6,8 @@ D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\obj\Releas
 D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\obj\Release\aliyun_api_gateway_sdk_ext.csproj.CoreCompileInputs.cache
 D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\obj\Release\aliyun_api_gateway_sdk_ext.dll
 D:\新建文件夹 (3)\jeens\project\stiot\aliyun_api_gateway_sdk_ext\obj\Release\aliyun_api_gateway_sdk_ext.pdb
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\aliyun_api_gateway_sdk_ext\bin\Release\aliyun_api_gateway_sdk_ext.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\aliyun_api_gateway_sdk_ext\bin\Release\aliyun_api_gateway_sdk.dll
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\aliyun_api_gateway_sdk_ext\obj\Release\aliyun_api_gateway_sdk_ext.csprojResolveAssemblyReference.cache
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\aliyun_api_gateway_sdk_ext\obj\Release\aliyun_api_gateway_sdk_ext.csproj.CoreCompileInputs.cache
+C:\Users\Jeens\Documents\GitHub\BrahmaFramework2\aliyun_api_gateway_sdk_ext\obj\Release\aliyun_api_gateway_sdk_ext.dll
