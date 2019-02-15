@@ -11,3 +11,5 @@ add feature
 2.promote the sql-mapping analysis module by using new grammar analyzing
 
 3.promote the variable define in mapping.config.xml
+
+4.sharing content like context, session could be easily used in dynamic module.
