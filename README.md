@@ -6,7 +6,7 @@ temporary goals:
 
 add feature
 
-1.link dynamic modules by reflection function--finished.
+1.link dynamic modules by reflection function(2019.4.9 finished).
 
 2.promote the sql-mapping analysis module by using new grammar analyzing
 
@@ -20,6 +20,13 @@ add feature
 
 7.one command return multiple datasets.
 
+8.sql injection defence(2019.4.11 added)
+
+9.support single command request(2019.4.10 finshed)
+
+10.pagination query(2019.4.9 finished)
+
+11.menu module function and authentication(2019.4.8 finished)
 -------------------------------------------------------------------------
 module definition fomat:
 
