@@ -28,6 +28,10 @@ add feature
 
 11.menu module function and authentication(2019.4.8 finished)
 
+12.response with dynamic json or other format(2019.4.11 added)
+
+13.data request and response test page(2019.4.11 added)
+
 -------------------------------------------------------------------------
 module definition fomat:
 
