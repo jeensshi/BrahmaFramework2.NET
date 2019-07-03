@@ -35,7 +35,7 @@ add feature
 -------------------------------------------------------------------------
 module definition fomat:
 
-input: 	sharing context	(have some problems,such as how to chang variable value temporary instead of changing it permanently)
+input: 	sharing context	(have some problems,such as how to chang variable value temporaryly instead of changing it permanently)
 
 output :	
 
